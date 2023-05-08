@@ -10,10 +10,15 @@
     "type": "git",
     "url":"git+https://github.com/comp426-2023-spring/a03-SwaggyLTW.git"
   },
+  "author": "SwaggyLTW",
+  "license": "MIT",
   "bin": {
     "node-rps": "./bin/rps-cli.js",
     "node-rpsls": "./bin/rpsls-cli.js"
   },
-  "author": "SwaggyLTW",
-  "license": "MIT"
+  
+  "dependencies": {
+    "minimist": "^1.2.8"
+  },
+  "type":"module"
 }
